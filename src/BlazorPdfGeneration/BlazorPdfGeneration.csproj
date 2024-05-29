@@ -9,7 +9,7 @@
 		<PackageId>BlazorPdfGeneration</PackageId>
         <Authors>BlazorPdfGeneration</Authors>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
-		<PackageVersion>2023.12.6.1</PackageVersion>
+		<PackageVersion>2023.12.6.2</PackageVersion>
 		<Description>BlazorPdfGeneration</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/BlazorPdfGeneration/BlazorPdfGeneration</RepositoryUrl>
