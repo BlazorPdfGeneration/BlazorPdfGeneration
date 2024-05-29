@@ -1,11 +1,13 @@
 using Microsoft.Extensions.DependencyInjection;
+using QuestPDF.Infrastructure;
 
 namespace BlazorPdfGeneration;
 
-internal static class DependencyInjection
+public static class DependencyInjection
 {
-	internal static IServiceCollection AddInfrastructure(this IServiceCollection services)
+	public static IServiceCollection AddBlazorPdfGeneration(this IServiceCollection services)
 	{
+		QuestPDF.Settings.License = LicenseType.Community;
 		return services;
 	}
 }
